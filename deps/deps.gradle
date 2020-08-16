@@ -1,0 +1,22 @@
+ext {
+    def lifecycle_version = "2.2.0"
+    def arch_version = "2.1.0"
+    lifecycle_viewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    lifecycle_livedata = "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    lifecycle_viewmodel_savedstate = "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
+    lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
+    def daggerVersion = "2.28.3"
+    dagger = "com.google.dagger:dagger:$daggerVersion"
+    dagger_android = "com.google.dagger:dagger-android:$daggerVersion"
+    dagger_android_support = "com.google.dagger:dagger-android-support:$daggerVersion"
+    dagger_compiler = "com.google.dagger:dagger-compiler:$daggerVersion"
+    dagger_android_compiler = "com.google.dagger:dagger-android-processor:$daggerVersion"
+
+
+    picasso = 'com.squareup.picasso:picasso:2.71828'
+
+    retrofit = 'com.squareup.retrofit2:retrofit:2.9.0'
+    retrofit_converter = 'com.squareup.retrofit2:converter-gson:2.4.0'
+    okHttp = 'com.squareup.okhttp3:logging-interceptor:4.7.2'
+}
